@@ -5,8 +5,566 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="all.min.css">
+    <style>
+        .navbar-collapse {
+        flex-grow: 0;
+        justify-content: center !important;
+    }
+    .navbar-nav {
+        justify-content: center;
+        width: 100%;
+    }
+    </style>
 </head>
-<body>
+<body >
+    <div class=" rounded-5 bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg nav-underline bg-white justify-content-between" style="border-top: 5px solid green;">
+            <div class=" container-fluid justify-content-between">
+                <div>
+                <a class="navbar-brand" href="#">
+                    <img src="./logo-dark.png" alt="">
+                </a>
+                <button class="navbar-toggler m-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                </div>
+                <div class="collapse navbar-collapse mx-auto" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./bstask7.html">Dictionary</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Collectiions</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Quiz</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="./bstask7.1.html">Community</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Contribute</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Certificate</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="btn-group">
+                        <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-earth-americas"></i>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <div class="container-fluid">
+                                <form class="d-flex" role="search">
+                                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                                </form>
+                            </div>
+                            <li><button class="dropdown-item" type="button">English</button></li>
+                            <li><button class="dropdown-item" type="button">Action</button></li>
+                            <li><button class="dropdown-item" type="button">Action</button></li>
+                            <li><button class="dropdown-item" type="button">Action</button></li>
+                            <li><button class="dropdown-item" type="button">Another action</button></li>
+                            <li><button class="dropdown-item" type="button">language</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container bg-body-tertiary" style=" width: 100%;">
+            <div class="container text-center justify-content-between d-flex align-items-center ">
+                <div><p>Welcome to HowToPronounce Dictionary. <a href="" class="text-warning">Contribute</a>  to help our community pronounce better for the languages you speak.</p>
+                </div>
+                <div>
+                    <a href=""><i class="fa-solid fa-plus p-2 pe-4 bg-white border"></i></a>
+                    <a href=""><i class="fa-solid fa-shuffle p-2 pe-4 bg-white border"></i></a>
+                    <a href=""><i class="fa-solid fa-user p-2 pe-4 bg-white border"></i></a>
+                </div>
+
+            </div>
+        </div> 
+    </div>
+    <div class="bg-success">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-8 col-12 text-white mt-5">
+                    <form class="d-flex">
+                        <input class="form-control p-3 rounded-0" type="search" placeholder="Search for a word" aria-label="Search"/>
+                        <div class="">
+                            <div class="btn-group">
+                                <button type="button" class="btn dropdown-toggle bg-white p-3 rounded-0" data-bs-toggle="dropdown" aria-expanded="false" style="width: 250px;">
+                                Pronounce
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <div class="container-fluid">
+                                        <form class="d-flex" role="search">
+                                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                                        </form>
+                                    </div>
+                                    <li><button class="dropdown-item" type="button">English</button></li>
+                                    <li><button class="dropdown-item" type="button">Action</button></li>
+                                    <li><button class="dropdown-item" type="button">Action</button></li>
+                                    <li><button class="dropdown-item" type="button">Action</button></li>
+                                    <li><button class="dropdown-item" type="button">Another action</button></li>
+                                    <li><button class="dropdown-item" type="button">language</button></li>
+                                </ul>
+                                <div class="align-items-center"><i class="fa-solid fa-volume-high fa-2x bg-dark p-3 pe-5 "></i></div>
+                                </div>
+                            </div>
+                        </form>
+                    <div>
+                        <h1>Crowdsourced Pronunciation Dictionary</h1>
+                        <p class="fs-6">Everything about audio pronunciations with meanings, synonyms, sentence usages, translations and much more.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-12 text-end text-white">
+                    <img src="homepage_image.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-body-tertiary">
+        <div class="container bg-white shadow-sm">
+            <div class="row m-5 shadow-sm">
+                <div class="row ">
+                    <div class="col mb-0 bg-body-tertiary" style="border-bottom: 1px dotted gray;">
+                        <h5>Trending on HowToPronounce</h5>
+                    </div>
+                </div>
+                <div class="row mt-0 mb-0">
+                    <div class="col-4 mt-0">
+                        <div class="d-flex">
+                            <p>Afghanistan</p>
+                            <p class="text-secondary">[en]</p>
+                        </div>
+                        <div class="d-flex">
+                            <p>Alison Balsom</p>
+                            <p class="text-secondary">[en]</p>
+                        </div>
+                        <div class="d-flex">
+                            <p>Donnarumma</p>
+                            <p class="text-secondary">[en]</p>
+                        </div>
+                        <div class="d-flex">
+                            <p>mkr</p>
+                            <p class="text-secondary">[en]</p>
+                        </div>
+                        <div class="d-flex">
+                            <p>Reece Walsh</p>
+                            <p class="text-secondary">[en]</p>
+                        </div>
+                    </div>
+                    <div class="col-4 mt-0">
+                        <div class="d-flex">
+                            <p>Katie George</p>
+                            <p class="text-secondary">[en]</p>
+                        </div>
+                        <div class="d-flex">
+                            <p>Jlr</p>
+                            <p class="text-secondary">[en]</p>
+                        </div>
+                        <div class="d-flex">
+                            <p>Conor Gallagher</p>
+                            <p class="text-secondary">[en]</p>
+                        </div>
+                        <div class="d-flex">
+                            <p>Gen z</p>
+                            <p class="text-secondary">[en]</p>
+                        </div>
+                        <div class="d-flex">
+                            <p>Jujutsu Kaisen</p>
+                            <p class="text-secondary">[en]</p>
+                        </div>
+                    </div>
+                    <div class="col-4 mt-0 ">
+                        <div class="d-flex">
+                            <p>Ruth Croft</p>
+                            <p class="text-secondary">[en]</p>
+                        </div>
+                        <div class="d-flex">
+                            <p>MICHAEL SALISBURY</p>
+                            <p class="text-secondary">[en]</p>
+                        </div>
+                        <div class="d-flex">
+                            <p>Gilbert Rozon</p>
+                            <p class="text-secondary">[en]</p>
+                        </div>
+                        <div class="d-flex ">
+                            <p>Ruby Tandoh</p>
+                            <p class="text-secondary">[en]</p>
+                        </div>
+                        <div class="d-flex">
+                            <p>Lee Roy Jordan</p>
+                            <p class="text-secondary">[en]</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row m-5">
+                <div class="col-4 border">
+                    <div class="bg-body-tertiary d-flex align-items-center" style="border: 1px dotted gray;">
+                        <i class="fa-solid fa-clock-rotate-left text-warning"></i>
+                        <h5>Recently viewed words</h5>
+                    </div>
+                    <div class="d-flex">
+                            <p>Jissa</p>
+                            <p class="text-secondary">[en]</p>
+                        </div>
+                        <div class="d-flex">
+                            <p>cushioning</p>
+                            <p class="text-secondary">[en]</p>
+                        </div>
+                        <div class="d-flex">
+                            <p>laterally inverted</p>
+                            <p class="text-secondary">[en]</p>
+                        </div>
+                        <div class="d-flex ">
+                            <p>Langeard</p>
+                            <p class="text-secondary">[en]</p>
+                        </div>
+                        <div class="d-flex">
+                            <p>Michale Graves</p>
+                            <p class="text-secondary">[en]</p>
+                        </div>
+                        <div class="d-flex justify-content-between" style="border-top: 1px dotted gray;">
+                            <div>Last updated</div>
+                            <div>September 01, 2025</div>
+                        </div>
+                </div>
+                <div class="col-4 border ">
+                    <div class="bg-body-tertiary"style="border: 1px dotted gray;"><h5>Word of the day</h5></div>
+                    <div class="text-center mt-5">
+                        <h4>Bloviate</h4>
+                        <p>[ bloviate ]</p>
+                        <a class="text-success text-decoration-none " href="#">Learn pronunciation</a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="border">
+                        <h5 class="bg-body-tertiary" style="border-bottom: 1px dotted gray;">Which is the right way to pronounce the word Utrecht?</h5>
+                        <div class="m-3 p-2 "style="border-bottom: 1px dotted gray;">
+                        <input  type="radio" id="html" name="fav_language" value="HTML">
+                        <label for="">yoo-trekt</label>
+                        </div>
+                        <div class="m-3 p-2"style="border-bottom: 1px dotted gray;">
+                        <input type="radio" id="html" name="fav_language" value="HTML">
+                        <label for="">yo-treekt</label>
+                        </div>
+                        <div class="m-3 p-2"style="border-bottom: 1px dotted gray;">
+                        <input type="radio" id="html" name="fav_language" value="HTML">
+                        <label for="">yo-trekt</label>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center" style="border-top: 1px dotted gray;">
+                            <div><a href="">Pronunciation poll</a></div>
+                            <div class="rounded-2 text-secondary p-1 ps-3 pe-3 m-2 border">Vote</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container bg-white shadow-sm">
+                <div class="row">
+                    <div class="col-8 border">
+                        <div class="bg-body-tertiary" style="border-bottom: 1px dotted gray;">
+                            <h5>Popular quizzes</h5>
+                        </div>
+                        <div class="d-flex justify-content-around ms-3 me-3 mt-3">
+                            <div class="card m-1" style="width: 18rem; height: 250px;">
+                                <img src="person.jpeg" class="card-img-top" alt="..."  width="100%" height="90px">
+                                <div class="card-body">
+                                    <p class="card-title">Covid-19</p>
+                                    <div class="d-flex justify-content-between mt-5">
+                                        <div class=" text-secondary border-end pe-1">
+                                            <h5>10</h5>
+                                            <p style="font-size: small;">Questions</p>
+                                        </div>
+                                        <div class=" text-secondary">
+                                            <h5>1684</h5>
+                                            <p style="font-size: small ; ">Attempts</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card m-1" style="width: 18rem; height: 250px;">
+                                <img src="./person.jpeg" class="card-img-top" alt="..."  width="100%" height="90px">
+                                <div class="card-body">
+                                    <p class="card-title " >Do you know your presidents well?</p>
+                                    <div class="d-flex justify-content-between">
+                                        <div class=" text-secondary border-end pe-1">
+                                            <h5>10</h5>
+                                            <p class="" style="font-size: small;">Questions</p>
+                                        </div>
+                                        <div class="text-secondary ">
+                                            <h5>2786</h5>
+                                            <p style="font-size: small;">Attempts</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card m-1" style="width: 18rem; height:250px ;">
+                                <img src="./person.jpeg" class="card-img-top" alt="..."  width="100%" height="90px">
+                                <div class="card-body">
+                                    <p class="card-title">Hello Linguists! Take this quiz now!</p>
+                                    <div class="d-flex justify-content-between">
+                                        <div class=" text-secondary pe-1 border-end">
+                                            <h5>11</h5>
+                                            <p style="font-size: small;">Questions</p>
+                                        </div>
+                                        <div class="text-secondary">
+                                            <h5>1823</h5>
+                                            <p style="font-size: small;">Attempts</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card m-1" style="width: 18rem; height: 250px;">
+                                <img src="person.jpeg" class="card-img-top" alt="..." width="100%" height="90px">
+                                <div class="card-body">
+                                    <p class="card-title mb-5">Spell it right!</p>
+                                    <div class="d-flex justify-content-between text-secondary">
+                                        <div class="border-end pe-1">
+                                            <h5>15</h5>
+                                            <p style="font-size: small;">Questions</p>
+                                        </div>
+                                        <div>
+                                            <h5>6068</h5>
+                                            <p style="font-size: small;">Attempts</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center m-3" >
+                            <div class="card m-1" style="width: 165px; height: 250px;">
+                                <img src="person.jpeg" class="card-img-top" alt="..." width="100%" height="90px">
+                                <div class="card-body">
+                                    <p class="card-title mb-4">general knowledge</p>
+                                    <div class="d-flex justify-content-between text-secondary">
+                                        <div class="border-end pe-1">
+                                            <h5>4</h5>
+                                            <p style="font-size: small;">Questions</p>
+                                        </div>
+                                        <div>
+                                            <h5>4712</h5>
+                                            <p style="font-size: small;">Attempts</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card m-1" style="width: 165px; height: 250px;">
+                                <img src="person.jpeg" class="card-img-top" alt="..." width="100%" height="90px">
+                                <div class="card-body">
+                                    <p class="card-title mb-5">Art</p>
+                                    <div class="d-flex justify-content-between text-secondary">
+                                        <div class="border-end pe-1">
+                                            <h5>10</h5>
+                                            <p style="font-size: small;">Questions</p>
+                                        </div>
+                                        <div>
+                                            <h5>1562</h5>
+                                            <p style="font-size: small;">Attempts</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 border">
+                        <div class="bg-body-tertiary w-100" style="border-bottom: 1px dotted gray;">
+                            <h5>Popular collections</h5>
+                        </div>
+                        <div class="d-flex ">
+                            <div class="rounded-2  p-1 ps-3 pe-3 m-2 border bg-primary text-white"style="width: 50%;">
+                                <p>Hispanic celebrities and sports-persons</p>
+                                <p class="text-end"style="color: rgb(223, 220, 216);">-Gloria Mary</p>
+                                <p><b>30</b></p>
+                            </div>
+                            <div class="rounded-2  p-1 ps-3 pe-3 m-2 border bg-secondary text-white"style="width: 50%;">
+                                <div>
+                                    <p>Norwegian</p>
+                                    <p class="text-end" style="color: rgb(223, 220, 216);">-Gloria Mary</p>
+                                </div>
+                                <div>
+                                    <p class="mt-5"><b>30</b></p>
+                                </div>
+                            </div>   
+                        </div>
+                        <div class="d-flex">
+                            <div class="rounded-2  p-1 ps-3 pe-3 m-2 border bg-warning text-white" style="width: 50%;">
+                                <p>Popular food and drinks</p>
+                                <p class="text-end" style="color: rgb(223, 220, 216);">-Gloria Mary</p>
+                                <p class=""><b>30</b></p>
+                            </div>
+                            <div class="rounded-2  p-1 ps-3 pe-3 m-2 border bg-success text-white" style="width: 50%;">
+                                <p>French</p>
+                                <p class="text-end" style="color: rgb(223, 220, 216);">-Gloria Mary</p>
+                                <p class="mt-5"><b>30</b></p>
+                            </div>
+                        </div>
+                        <div class="d-flex w-100">
+                            <div class="rounded-2  p-1 ps-3 pe-3 m-2 border bg-danger text-white " style="width: 50%;">
+                                <p>Money Heist cast actual and screen name</p>
+                                <p class="text-end" style="color: rgb(223, 220, 216);">-John Dennis..</p>
+                                <p><b>30</b></p>
+                            </div>
+                            <div class="rounded-2  p-1 ps-3 pe-3 m-2 border bg-warning text-white "style="width: 50%;">
+                                <p>Latin</p>
+                                <p class="text-end" style="color: rgb(223, 220, 216);">-Gloria Mary</p>
+                                <p class="mt-5"><b>30</b></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-5 pe-5 ps-5 w-100">
+                <div>
+                    <p>HowToPronounce.com is a free online audio pronunciation dictionary which helps anyone to learn the way a word or name is pronounced around the world by listening to its audio pronunciations by native speakers.</p>
+                    <p>Learn how to correctly say a word, name, place, drug, medical and scientific terminology or any other difficult word in English, French, German, Portuguese, Spanish, Italian, Swedish and other languages with our multilingual pronunciation and phonetics dictionary made out of audio pronunciations of words, their meanings, synonyms, sentences, translations and more contributed by the worldwide HowToPronounce.com Community.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-dark text-white p-3">
+        <div class="container">
+        <div class="row">
+            <div class="col-4 border-end">
+                <img src="logo-white.png" alt="">
+                <p class="mt-2">Crowdsourced audio pronunciation dictionary for 89 languages, with meanings, synonyms, sentence usages, translations and much more.</p>
+                <div class="d-flex">
+                    <div class="border rounded-circle m-2"><a href=""><i class="fa-brands fa-facebook fa-2x"></i></a></div>
+                    <div class="border rounded-circle m-2"><a href=""><i class="fa-brands fa-twitter fa-2x"></i></a></div>
+                    <div class="border rounded-circle m-2"><a href=""><i class="fa-brands fa-instagram fa-2x"></i></a></div>
+                    <div class="border rounded-circle m-2"><a href=""><i class="fa-brands fa-pinterest fa-2x"></i></a></div>
+                </div>
+                <div class="row">
+                    <div class="col-6 d-grid">
+                        <a class="text-decoration-none" href="">> Words</a>
+                        <a class="text-decoration-none" href="">> Names</a>
+                    </div>
+                    <div class="col-6 d-grid">
+                        <a class="text-decoration-none" href="">> Places</a>
+                        <a class="text-decoration-none" href="">> Medicines</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 border-end">
+                <h5>Learn the pronunciation of words in</h5>
+                <div class="row mb-3">
+                    <div class="col-4 d-grid">
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                    </div>
+                    <div class="col-4 d-grid ">
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                    </div>
+                    <div class="col-4 d-grid">
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                        <a class="text-decoration-none text-white" href="">>  Afrikaans</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 text-center">
+                <div class="m-3">
+                <p class="m-2"><b>Word of the day-in your inbox every day</b></p>
+                </div>
+                <p class="m-2">September 02, 2025</p>
+                <h5 class="m-2">Criterion</h5>
+                <p class="m-2" style="font-size: small;">Learn pronunciation >></p>
+                <p class="m-2" style="font-size: small;">Subscribe to learn and pronounce a new word each day! </p>
+                <div>
+                    <form class="d-flex" role="search">
+        <input class="form-control me-2 rounded-0" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+                </div>
+            </div>
+        </div>
+            <div class="text-center ms-5 me-5 mb-5 pb-5 border-top">
+                <p>© 2025 HowToPronounce. All Rights Reserved. <a href="" class="text-white">Terms</a> | <a href="" class="text-white">Privacy</a> | <a href="" class="text-white">Cookies</a> | <a href="" class="text-white">Contact Us</a> | <a href="" class="text-white">Advertise with us</a></p>
+
+        </div>
+        </div>
+    </div>
     <script src="bootstrap.bundle.min.js"></script>
 </body>
 </html>
